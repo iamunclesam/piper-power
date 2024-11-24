@@ -13,11 +13,7 @@ const HeaderAndHero = () => {
           <div className="flex items-center justify-between">
             <div className="shrink-0">
               <a href="#" title="" className="flex">
-                <img
-                  className="w-auto h-9"
-                  src="https://landingfoliocom.imgix.net/store/collection/dusk/images/logo.svg"
-                  alt="Logo"
-                />
+                <p class="text-white text-2xl">Piper-Power</p>
               </a>
             </div>
 
@@ -93,7 +89,7 @@ const HeaderAndHero = () => {
         </div>
       </header>
 
-      <section className="pt-20 py-12 bg-black sm:pb-16 lg:pb-20 xl:pb-24">
+      <section className=" py-12 bg-black sm:pb-16 lg:pb-20 xl:pb-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 md:max-w-7xl">
           <div className="relative">
             <div className="text-center">
@@ -166,14 +162,14 @@ const HeaderAndHero = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="grid items-center grid-cols-1 gap-10 sm:gap-16 lg:grid-cols-2">
                     <div>
-                        <div className="max-w-sm mx-auto xl:max-w-md rounded-2xl -rotate-3">
+                        <div className="max-w-sm mx-auto xl:max-w-md rounded-2xl -rotate-0 md:-rotate-3">
                         <img className="w-full rounded-xl" src={twoImage} alt="" />
                         </div>
                     </div>
 
                     <div className="max-w-md mx-auto text-center lg:max-w-none lg:text-left">
                         <h2 className="text-3xl font-bold text-white sm:text-4xl xl:text-6xl font-pj">Modern Energy Solutions for a Sustainable Future</h2>
-                        <p className="mt-8 text-xl font-normal leading-7 text-gray-300 font-pj">
+                        <p className="mt-8 md:text-xl font-normal leading-7 text-gray-300 font-pj">
                         We specialize in renewable energy, infrastructure development, and reliable energy supply. Our cutting-edge technologies ensure sustainable growth and efficiency across diverse sectors.
                         </p>
 
@@ -192,13 +188,13 @@ const HeaderAndHero = () => {
 
                     <div className="order-2 md:order-1 max-w-md mx-auto text-center lg:max-w-none lg:text-left">
                         <h2 className="text-3xl font-bold text-white sm:text-4xl xl:text-6xl font-pj">Explore the Piper Power Energy Village</h2>
-                        <p className="mt-8 text-xl font-normal leading-7 text-gray-300 font-pj">
+                        <p className="mt-8 md:text-xl font-normal leading-7 text-gray-300 font-pj">
                         Experience the pinnacle of energy innovation. Our Energy Village showcases state-of-the-art technologies and sustainable practices, offering a glimpse into the future of energy solutions.
                         </p>
                     </div>
 
                     <div className="order-1 md:order-2">
-                        <div className="max-w-sm mx-auto xl:max-w-md rounded-2xl rotate-3">
+                        <div className="max-w-sm mx-auto xl:max-w-md rounded-2xl rotate-0 md:rotate-3">
                         <img className="w-full rounded-xl" src={threeImage} alt="" />
                         </div>
                     </div>
