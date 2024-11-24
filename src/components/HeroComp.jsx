@@ -94,13 +94,13 @@ const HeaderAndHero = () => {
       </header>
 
       <section className="pt-20 py-12 bg-black sm:pb-16 lg:pb-20 xl:pb-24">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 md:max-w-7xl">
           <div className="relative">
             <div className="text-center">
               <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
               Leading Energy Supply and Sustainability
               </p>
-              <h1 className="mt-6 text-4xl font-bold text-white sm:mt-10 sm:text-5xl lg:text-7xl lg:px-28">
+              <h1 className="mt-6 text-5xl font-bold text-white sm:mt-10 sm:text-5xl lg:text-7xl lg:px-28">
                 <span className="text-transparent bg-clip-text text-white">
                 Welcome to Piper Power Innovative Technologies Ltd.
                 </span>{" "}
